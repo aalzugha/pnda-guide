@@ -53,7 +53,7 @@ The build tools are found in the [mirror folder](https://github.com/pndaproject/
 To run the entire mirror creation process -
 
 ```sh
-sudo su
+sudo su # Don't substitute user again if you did configure your proxy environment!
 ./create_mirror.sh
 ```
 
@@ -94,4 +94,4 @@ For more about creating and maintaining mirrors, please refer to the [repository
 # [Next](BUILD.md)
 
 | [Home](../OVERVIEW.md) | [Prepare](PREPARE.md) | [Mirror](MIRROR.md) | [Build](BUILD.md) | [Stage](STAGE.md) | [Configure](CONFIGURE.md) | [Create](CREATE.md) | 
-| --- | --- | --- | --- | --- | --- | --- | 
+| --- | --- | --- | --- | --- | --- | --- |
